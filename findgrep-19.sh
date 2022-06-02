@@ -6,6 +6,6 @@ if [ -z "$director" ]
 then
 	directory=" "
 fi
-
+ls
 find . -type f | xargs grep -HH "$pattern"
 
